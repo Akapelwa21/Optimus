@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://localhost:5173', {
+    const response = await fetch('https://optimus-5z7j.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
